@@ -1,0 +1,167 @@
+
+/* general styles */
+
+:root {
+    --bannerbg: url("../images/02-hero-bg.jpg");
+    --surfreport: url("../images/02-portfolio-4.jpg");
+    --LEDWall: url("../images/02-portfolio-1.jpg");
+    --calculator: url("../images/02-portfolio-2.jpg");
+    --pastelpuzzles: url("../images/02-portfolio-3.jpg");
+    --runbuddy: url("../images/02-run-buddy.jpg");
+  
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* list items */
+  
+  ul{
+    list-style: none;
+  }
+  
+  /* unvisited link */
+  a{
+    color: aqua;
+    text-underline-position:under;
+    text-decoration-thickness: 3px;
+  }
+  
+  /* fonts styles */
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  
+  /* title and navigation containers */
+  
+  .parentContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(36, 36, 39);
+  }
+  
+  .title{
+    display: flex;
+    background-color: aqua;
+    padding-left: 50px;
+    padding-right: 5px;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle{
+    display: flex;
+    height: 30px;
+    align-content:flex-end;
+    background-color: aqua;
+    font-size: 15px;
+  }
+  
+  /* navigation links */
+  
+  .links{
+  display: flex;
+  justify-content: space-between;
+  align-content:flex-end;
+  padding-right: 10px;
+  }
+  
+  .contact-links a{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-content:flex-end;
+    padding-right: 10px;
+    }
+  
+  .hero-banner{
+    display: flex;
+    background-image: var(--bannerbg);
+    height: 100px;
+  }
+  
+  /* main content sections */
+  
+  .portfolio-page-section{
+    display: flex;
+  }
+  
+  .portfolio-page-section-title{
+    display: flex;
+    width: 50px;
+    padding-right: 100px;
+    margin-left: 50px;
+  }
+  
+  .vertical-line{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+    height: 125px;
+  }
+  
+  .portfolio-page-section-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .subtitle-work{
+    height: auto;
+    align-content:flex-end;
+    background-color: aqua;
+    font-size: 15px;
+    width: 50%;
+  }
+  
+  .work-LED {
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    align-content:flex-start;
+    flex-grow: 1;
+  }
+  
+  .work-calculator {
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    align-content:flex-end;
+  }
+  
+  .work-surf {
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    align-content:flex-end;
+  }
+  
+  .work-runbuddy {
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    align-content:flex-start;
+  }
+  
+  
